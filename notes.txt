@@ -1,0 +1,18 @@
+always start with npm init to get the project details from the user.
+
+npm install package name --save means it saves the name of package in package.json and you just
+need to share the package.json file to install everything
+
+npm install gulp --save
+npm install gulp -g for accessing gulp using cmd or npm install -g gulp-cli
+npm install mongoose --save it'll take data in mongo and convert it in JSON objects which can we use in this app
+
+bodyparser is used to search json objects and adds it req.body of any request 
+
+Checkout
+----------
+Gulp Course Pluralsight
+Mongoose Course Pluralsight
+
+Put replaces the whole objects
+Patch replaces the part of the whole object
